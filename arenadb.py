@@ -39,7 +39,8 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--def_party', nargs='*', required=True)
+    parser.add_argument('-d', '--def_party', nargs='*', required=True,
+                        help='def characters separated by space')
     args = parser.parse_args()
     run(args)
 
