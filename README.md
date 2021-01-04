@@ -1,9 +1,9 @@
 # arenadb-cli
 CLI tool for ArenaDB written in python3.
 
-### setup
+## setup
 ```
-$ pip install git+https://github.com/yuyamada/arenadb
+$ pip install git+https://github.com/yuyamada/arenadb.git
 ```
 ## example
 ```
