@@ -4,7 +4,7 @@ import requests
 import json
 
 
-def main(args):
+def run(args):
     url = 'https://nomae.net/princess_connect/public/_arenadb/receive.php'
     headers = {'x-from': 'https://nomae.net/arenadb/'}
     data = [
@@ -37,8 +37,12 @@ def main(args):
         print('\t'.join([str(r[c]) for c in show_cols]))
 
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--def_party', nargs='*', required=True)
     args = parser.parse_args()
-    main(args)
+    run(args)
+
+
+if __name__ == '__main__':
+    main()
