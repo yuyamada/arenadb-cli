@@ -1,5 +1,5 @@
 # arenadb-cli
-CLI tool for ArenaDB for PrincessConnectRe:Dive written in python3.
+CLI tool for ArenaDB written in python3.
 
 ## setup
 ```
