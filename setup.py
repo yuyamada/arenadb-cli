@@ -1,10 +1,10 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='arenadb',
     version='0.0.1',
     description='CLI for ArenaDB',
-    packages=['.'],
+    packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': ['arenadb=main.main']
     },
