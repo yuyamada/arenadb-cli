@@ -1,9 +1,13 @@
 # arenadb-cli
 CLI tool for ArenaDB written in python3.
 
+### setup
+```
+$ pip install git+https://github.com/yuyamada/arenadb
+```
 ## example
 ```
-$ python main.py -d マホ カスミ（マジカル） サレン ユカリ リマ
+$ arenadb -d マホ カスミ（マジカル） サレン ユカリ リマ
 def_party: ['マホ', 'カスミ（マジカル）', 'サレン', 'ユカリ', 'リマ']
 updated	good	bad	atk_party
 2020-12-20 10:06:10	264	44	['ラビリスタ', 'コッコロ（プリンセス）', 'タマキ', 'コッコロ（ニューイヤー）', 'ツムギ（ハロウィン）']
