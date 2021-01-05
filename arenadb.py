@@ -2,16 +2,18 @@ import sys
 import argparse
 import requests
 import json
+from alias import alias
 
 
 def run(args):
     url = 'https://nomae.net/princess_connect/public/_arenadb/receive.php'
     headers = {'x-from': 'https://nomae.net/arenadb/'}
+    def_party = [alias.get(c, c) for c in args.def_party]
     data = [
         ('type', 'search'),
         ('userid', 0),
         ('public', 1),
-        *[('def[]', c) for c in args.def_party],
+        *[('def[]', c) for c in def_party],
         ('page', 0),
         ('sort', 0),
     ]
@@ -29,8 +31,7 @@ def run(args):
     for r in rows:
         r['atk_party'] = [c.split(',')[0] for c in r['atk'].split('/')[1:]]
 
-    print('def_party:', args.def_party)
-
+    print('def_party:', def_party)
     show_cols = ['updated', 'good', 'bad', 'atk_party']
     print('\t'.join(show_cols))
     for r in rows:
