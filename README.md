@@ -1,11 +1,5 @@
 # arenadb-cli
-CLI tool for ArenaDB written in python3.
-
-## setup
-```
-$ pip install git+https://github.com/yuyamada/arenadb.git
-```
-## example
+This repo contains CLI tool for 'ArenaDB for Princess Connect Re:Dive'.
 ```
 $ arenadb -d マホ カスミ（マジカル） サレン ユカリ リマ
 def_party: ['マホ', 'カスミ（マジカル）', 'サレン', 'ユカリ', 'リマ']
@@ -21,4 +15,9 @@ updated	good	bad	atk_party
 2020-12-20 10:02:55	23	6	['ユニ', 'サレン', 'ニノン', 'ヒヨリ（ニューイヤー）', 'コッコロ（ニューイヤー）']
 2020-10-22 23:36:13	79	24	['サレン（サマー）', 'ヒヨリ', 'ムイミ', 'コッコロ（ニューイヤー）', 'リマ']
 2020-12-25 01:33:23	9	2	['サレン（サマー）', 'ニノン', 'ユカリ', 'ヒヨリ', 'リマ']
+```
+
+## Setup
+```
+$ pip install git+https://github.com/yuyamada/arenadb.git
 ```
