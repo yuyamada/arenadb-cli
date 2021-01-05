@@ -1,5 +1,5 @@
 # arenadb-cli
-This repo contains CLI tool for 'ArenaDB for Princess Connect Re:Dive'.
+CLI client for 'ArenaDB for Princess Connect Re:Dive'
 ```
 $ arenadb -d マホ カスミ（マジカル） サレン ユカリ リマ
 def_party: ['マホ', 'カスミ（マジカル）', 'サレン', 'ユカリ', 'リマ']
