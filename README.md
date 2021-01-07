@@ -16,7 +16,7 @@ updated	good	bad	atk_party
 2020-08-30 09:19:32	181	62	['キャル（サマー）', 'ハツネ', 'ネネカ', 'アン', 'ユカリ']
 2020-07-09 15:33:28	520	258	['キャル（サマー）', 'ハツネ', 'ネネカ', 'アン', 'ユカリ']
 ```
-
+![arenadb](https://user-images.githubusercontent.com/32360019/103903455-40fc5400-513f-11eb-97c9-ac54f8727d21.gif)
 ## Setup
 ```
 $ pip install git+https://github.com/yuyamada/arenadb.git
